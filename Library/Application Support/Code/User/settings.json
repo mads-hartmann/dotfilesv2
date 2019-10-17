@@ -1,17 +1,17 @@
 {
-  "editor.cursorStyle": "line",
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "Fira Code",
+  "editor.cursorStyle": "line",
+  "editor.fontFamily": "Fira Mono for Powerline",
   "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.gotoLocation.multiple": "goto",
   "editor.lineHeight": 16,
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "none",
   "editor.scrollBeyondLastLine": false,
+  "editor.tabCompletion": "onlySnippets",
   "editor.wordBasedSuggestions": true,
-  // Disable vscode snippets, I use yassnippets
-  "editor.tabCompletion": false,
-  "editor.snippetSuggestions": "none",
   "explorer.autoReveal": false,
   "explorer.openEditors.visible": 10,
   "files.defaultLanguage": "markdown", // For scratch documents 😎
@@ -55,42 +55,23 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/**": true,
-    // Famly
+    // Common trash folders
     "**/tmp/**": true,
     "**/dist/**": true,
     "**/build/**": true
   },
   "terminal.external.osxExec": "iTerm.app",
-  "window.zoomLevel": 0.1,
-  "workbench.fontAliasing": "default",
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": true,
   "workbench.editor.tabCloseButton": "off",
-  "workbench.editor.enablePreview": false,
-  "workbench.sideBar.location": "left",
-  "workbench.statusBar.visible": true,
+  "workbench.fontAliasing": "default",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Material Theme High Contrast",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
-  "yaml.schemas": {
-    "kubernetes": "*.yaml"
-  },
-  /*
-   * SCALA
-   */
-  "metals.serverVersion": "SNAPSHOT",
-  "metals.scalafmt.version": "1.5.1",
-  /**
-   * Various utility plugins
-   */
-  "yassnippet.path": ".snippets",
-  "yassnippet.mapping": {
-    "shellscript": "sh-mode"
-  },
-  // strings are ignored.
-  "spellright.spellContext": "body comments",
-  "spellright.documentTypes": ["markdown", "latex", "plaintext", "typescript"],
-  "docker.showExplorer": false,
-  "reason.formatOnSave": true,
+  "workbench.statusBar.visible": true,
+  "workbench.useExperimentalGridLayout": true,
   "markdown.preview.scrollPreviewWithEditor": false,
   "markdown.preview.scrollEditorWithPreview": false,
   "[markdown]": {
@@ -98,9 +79,7 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.quickSuggestions": false,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "files.trimTrailingWhitespace": false
   },
   "[makefile]": {
@@ -109,12 +88,22 @@
   "[dockerfile]": {
     "editor.formatOnSave": false
   },
-  "prettier.eslintIntegration": true,
-  "tslint.autoFixOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "vsicons.presets.foldersAllDefaultIcon": true,
   "vsicons.dontShowNewVersionMessage": true,
   "vsicons.presets.hideExplorerArrows": true,
   "vsicons.presets.hideFolders": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -135,25 +124,9 @@
   "window.restoreWindows": "none",
   "workbench.editor.labelFormat": "short",
   "workbench.editor.tabSizing": "shrink",
-  "go.gopath": null,
   "telemetry.enableTelemetry": false,
-  "material-icon-theme.folders.color": "#42a5f5",
-  "metals.scalac.completions.enabled": true,
-  "materialTheme.fixIconsRunning": false,
-  "bashIde.path": "/usr/local/bin/bash-language-server",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "bashIde.highlightParsingErrors": false,
-  "prettier.disableLanguages": ["yaml"],
   "breadcrumbs.enabled": false,
-  "workbench.statusBar.feedback.visible": false,
-  "terminal.integrated.macOptionIsMeta": true,
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ],
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line"
+  "terminal.integrated.macOptionIsMeta": true
 }
