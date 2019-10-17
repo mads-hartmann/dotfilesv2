@@ -1,0 +1,207 @@
+[
+  // Editor zoom (macOS defaults)
+  { "key": "cmd+numpad_add", "command": "editor.action.fontZoomIn" },
+  { "key": "shift+cmd+=", "command": "editor.action.fontZoomIn" },
+  { "key": "cmd+=", "command": "editor.action.fontZoomIn" },
+  { "key": "cmd+numpad_subtract", "command": "editor.action.fontZoomOut" },
+  { "key": "shift+cmd+-", "command": "editor.action.fontZoomOut" },
+  { "key": "cmd+-", "command": "editor.action.fontZoomOut" },
+  { "key": "cmd+numpad0", "command": "editor.action.fontZoomReset" },
+  { "key": "cmd+0", "command": "editor.action.fontZoomReset" },
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.focusNextGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.focusPreviousGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.previousEditorInGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.nextEditorInGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.nextSideBarView",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.previousSideBarView",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus"
+  },
+  /**
+   * Emacs-like view splitting
+   */
+  {
+    "key": "ctrl+.",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+x 2",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+x 3",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+x 1",
+    "command": "workbench.action.closeEditorsInOtherGroups"
+  },
+  {
+    "key": "ctrl+x 0",
+    "command": "workbench.action.closeEditorsAndGroup"
+  },
+  // Other
+  {
+    "key": "ctrl+shift+.",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.gotoLine",
+    "when": "editorTextFocus"
+  },
+  /*
+     * Terminal bindings
+     */
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+]",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+,",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "undo_expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+f",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+b",
+    "command": "cursorWordStartLeft",
+    "when": "textInputFocus"
+  },
+  // I use alt+cmd+f for Spectacle.app
+  {
+    "key": "alt+cmd+f",
+    "command": null
+  },
+  {
+    "key": "cmd+shift+f",
+    "command": "workbench.view.search"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  }
+]

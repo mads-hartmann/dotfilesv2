@@ -1,0 +1,4 @@
+# To analyze an image
+dive <your-image-tag>
+# To build and then analyze
+dive build -t <some-tag> .

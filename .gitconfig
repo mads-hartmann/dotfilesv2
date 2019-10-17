@@ -1,0 +1,7 @@
+[core]
+  editor = code --wait
+[user]
+  email = mads379@gmail.com
+  name = Mads Hartmann
+[pager]
+	branch = false
