@@ -18,16 +18,14 @@ function echo-unpushed-branches {
 
 function main {
     local path
-    for kind in $(ls ~/dev); do
-        for project in $(ls ~/dev/${kind}); do
-            path="${HOME}/dev/${kind}/${project}"
-            echo "Checking project ${path}"
-            # Check if there are any unpushed branches
-            if is-git-repository "${path}"; then
-                echo-unpushed-branches "${path}"
-                echo-is-dirty "${path}"
-            fi
-        done
+    for project in $(ls ~/dev); do
+        path="${HOME}/dev/${project}"
+        echo "Checking project ${path}"
+        # Check if there are any unpushed branches
+        if is-git-repository "${path}"; then
+            echo-unpushed-branches "${path}"
+            echo-is-dirty "${path}"
+        fi
     done
 }
 
