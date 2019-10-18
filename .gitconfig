@@ -5,8 +5,6 @@
   name = Mads Hartmann
 [pager]
   branch = false
-# [alias]
-#
 [alias]
 	unstage = reset HEAD --
   # Delete any merged branches, ignoring the active branch.
