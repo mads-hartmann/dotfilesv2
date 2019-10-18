@@ -5,3 +5,9 @@
   name = Mads Hartmann
 [pager]
   branch = false
+# [alias]
+#
+[alias]
+	unstage = reset HEAD --
+  # Delete any merged branches, ignoring the active branch.
+  tidy = !git branch --merged | grep -E -v '(master|staging)' | grep -E -v '^\\*' | xargs git branch -d
