@@ -79,13 +79,18 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.quickSuggestions": false,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "files.trimTrailingWhitespace": false
   },
   "[makefile]": {
     "editor.renderWhitespace": "boundary"
   },
   "[dockerfile]": {
+    "editor.formatOnSave": false
+  },
+  "[liquid]": {
     "editor.formatOnSave": false
   },
   "[typescript]": {
@@ -128,5 +133,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "bashIde.highlightParsingErrors": false,
   "breadcrumbs.enabled": false,
-  "terminal.integrated.macOptionIsMeta": true
+  "terminal.integrated.macOptionIsMeta": true,
+  "terminal.integrated.rendererType": "dom"
 }
