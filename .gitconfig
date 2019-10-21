@@ -6,6 +6,8 @@
 [pager]
   branch = false
 [alias]
-	unstage = reset HEAD --
+  st = status
+  co = checkout
+  unstage = reset HEAD --
   # Delete any merged branches, ignoring the active branch.
   tidy = !git branch --merged | grep -E -v '(master|staging)' | grep -E -v '^\\*' | xargs git branch -d
