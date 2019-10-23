@@ -24,7 +24,6 @@
 .npmrc
 .nvm/
 .oces/
-.oh-my-zsh/
 .opam/
 .oracle_jre_usage/
 .org-timestamps/
@@ -41,7 +40,7 @@
 .vscode
 .vscode-glitch
 
-.zcompdump-*
+.zcompdump*
 .zsh_history
 .zshrc.zwc
 
