@@ -21,6 +21,8 @@
 .node-gyp/
 .node_repl_history
 .npm/
+.ssh
+.circleci
 .npmrc
 .nvm/
 .oces/
@@ -33,6 +35,8 @@
 .sqlite_history
 .wget-hsts
 .yarnrc
+.parallel
+.swt
 
 .terraform.d/
 .terraform.versions/
@@ -46,6 +50,11 @@
 
 .zoomus
 .mono
+
+VirtualBox VMs/
+go
+javasharedresources
+
 
 # Mac stuff
 .Trash
