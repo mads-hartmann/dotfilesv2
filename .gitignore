@@ -37,6 +37,7 @@
 .yarnrc
 .parallel
 .swt
+.augeas
 
 .terraform.d/
 .terraform.versions/
