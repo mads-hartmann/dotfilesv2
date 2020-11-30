@@ -88,8 +88,8 @@
     "when": "editorTextFocus"
   },
   /*
-     * Terminal bindings
-     */
+   * Terminal bindings
+   */
   {
     "key": "ctrl+`",
     "command": "workbench.action.terminal.focusNext",
@@ -203,5 +203,15 @@
   {
     "key": "cmd+9",
     "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "cmd+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
   }
 ]
