@@ -66,20 +66,18 @@
   "workbench.editor.showTabs": true,
   "workbench.editor.tabCloseButton": "off",
   "workbench.fontAliasing": "default",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.openMode": "doubleClick",
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
-  "workbench.useExperimentalGridLayout": true,
   "markdown.preview.scrollPreviewWithEditor": false,
-  "markdown.preview.scrollEditorWithPreview": false,
   "[markdown]": {
     "editor.formatOnSave": false,
     "editor.wordWrap": "wordWrapColumn",
     "editor.quickSuggestions": false,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [80],
+    "editor.rulers": [120],
+    "editor.wordWrapColumn": 120,
     "files.trimTrailingWhitespace": false
   },
   "[makefile]": {
@@ -143,9 +141,22 @@
     "keychain",
     "microservices",
     "queryable",
-    "runbook"
+    "runbook",
+    "Offboarding",
+    "roadmap",
+    "runbook",
+    "runbooks",
+    "triaged"
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
   "terraform.telemetry.enabled": false,
-  "workbench.colorTheme": "Material Theme Palenight High Contrast"
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "window.nativeFullScreen": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "window.titleBarStyle": "native",
+  "workbench.iconTheme": "material-icon-theme",
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.markEditorSelection": false
 }

@@ -1,13 +1,29 @@
 [
   // Editor zoom (macOS defaults)
-  { "key": "cmd+numpad_add", "command": "editor.action.fontZoomIn" },
-  { "key": "shift+cmd+=", "command": "editor.action.fontZoomIn" },
-  { "key": "cmd+=", "command": "editor.action.fontZoomIn" },
-  { "key": "cmd+numpad_subtract", "command": "editor.action.fontZoomOut" },
-  { "key": "shift+cmd+-", "command": "editor.action.fontZoomOut" },
-  { "key": "cmd+-", "command": "editor.action.fontZoomOut" },
-  { "key": "cmd+numpad0", "command": "editor.action.fontZoomReset" },
-  { "key": "cmd+0", "command": "editor.action.fontZoomReset" },
+  {
+    "key": "cmd+numpad_add",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "cmd+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "cmd+numpad_subtract",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "cmd+-",
+    "command": "editor.action.fontZoomOut"
+  },
   {
     "key": "alt+enter",
     "command": "editor.action.quickFix",
@@ -203,6 +219,11 @@
   {
     "key": "cmd+9",
     "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "cmd+m",
+    "command": "-markdown.extension.editing.toggleMath",
+    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
   },
   {
     "key": "cmd+b",
