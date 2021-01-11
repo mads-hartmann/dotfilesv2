@@ -97,6 +97,16 @@
   "[terraform]": {
     "editor.formatOnSave": true
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsicons.presets.hideExplorerArrows": true,
+  "vsicons.presets.hideFolders": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
