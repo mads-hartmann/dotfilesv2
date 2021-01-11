@@ -76,7 +76,9 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.quickSuggestions": false,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [120],
+    "editor.rulers": [
+      120
+    ],
     "editor.wordWrapColumn": 120,
     "files.trimTrailingWhitespace": false
   },
@@ -91,6 +93,9 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true
   },
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
@@ -126,20 +131,21 @@
   "breadcrumbs.enabled": true,
   "terminal.integrated.macOptionIsMeta": true,
   "cSpell.userWords": [
+    "CNAME",
     "Grafana",
+    "Offboarding",
     "deployer",
     "keychain",
     "microservices",
     "queryable",
-    "runbook",
-    "Offboarding",
+    "readonly",
     "roadmap",
     "runbook",
     "runbooks",
+    "toset",
     "triaged"
   ],
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "terraform.telemetry.enabled": false,
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "window.nativeFullScreen": false,
   "editor.codeActionsOnSave": {
@@ -148,5 +154,45 @@
   "window.titleBarStyle": "native",
   "workbench.iconTheme": "material-icon-theme",
   "markdown.preview.scrollEditorWithPreview": false,
-  "markdown.preview.markEditorSelection": false
+  "markdown.preview.markEditorSelection": false,
+  "html.format.indentHandlebars": true,
+  "liquid.format": true,
+  "terminal.integrated.rendererType": "canvas",
+  "cSpell.enabled": true,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "pug",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml",
+    "terraform"
+  ]
 }
