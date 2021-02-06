@@ -39,6 +39,9 @@
 .parallel
 .swt
 .augeas
+.gnupg
+.subversion
+.tldrc
 
 .terraform.d/
 .terraform.versions/
@@ -57,7 +60,6 @@
 VirtualBox VMs/
 go
 javasharedresources
-
 
 # Mac stuff
 .Trash
