@@ -13,6 +13,7 @@
 
 .docker/
 
+.asdf
 .gem/
 .go/
 .idlerc/
